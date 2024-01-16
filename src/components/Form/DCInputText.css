@@ -1,0 +1,105 @@
+.container_dc_input{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.dc-input-text-label{
+    z-index: 999;
+    width: 100%;
+    position: relative;
+    float: left;
+    color: #8f8f8f;
+    font-size: 1em;
+    margin-bottom: 0.7em;
+    font-weight: 400;
+
+    opacity: 100;
+    top: 45px;
+    left: 20px;
+    transition: z-index 0s, opacity 1s, top 1s, left 1s;
+}
+
+.input-label-show{
+    opacity: 100;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+    font-size: 0.8em;
+    margin-bottom: 1.3em;
+}
+
+.dc-input-text{
+    width: 90%;
+    position: relative;
+    float: left;
+    font-size: 0.8em;
+    font-weight: 400;
+    border-radius: 8px;
+    border: 1px solid #DDD;
+
+    padding: 5%;
+}
+
+::placeholder, 
+::-ms-input-placeholder{
+    color: #f1f1f1;
+    opacity: 1;
+}
+
+.dc-input-text:focus{
+    outline: none;
+    border: 1px solid #b4b4b4;
+}
+
+.input-required-mark{
+    color: rgb(253, 49, 49);
+}
+/* 
+
+
+
+.input:-webkit-autofill {
+    animation-name: onAutoFillStart;
+    transition: background-color 50000s ease-in-out 0s;
+}
+  
+.input:not(:-webkit-autofill) {
+    animation-name: onAutoFillCancel;
+}
+
+@keyframes onAutoFillStart {
+}
+
+@keyframes onAutoFillCancel {
+}
+
+.input_container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+}
+  
+.label {
+    font-size: 16px;
+    line-height: 16px;
+    font-family: Helvetica, sans-serif;
+}
+  
+.input {
+    height: 30px;
+    width: 100px;
+    padding: 8px 4px;
+    font-size: 18px;
+}
+
+.hide {
+    top: -8px;
+    left: 0;
+    font-size: 12px;
+    pointer-events: all;
+} */

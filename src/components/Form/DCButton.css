@@ -1,0 +1,13 @@
+.dc-button-container{
+    width: 100%;
+    position: relative;
+    float: left;
+    font-size: 1em;
+    font-weight: 500;
+    border: 0;
+    border-radius: 7px;
+    padding: 20px 0px;
+    background: #f02222;
+    color: #FFF;
+    cursor: pointer;
+}

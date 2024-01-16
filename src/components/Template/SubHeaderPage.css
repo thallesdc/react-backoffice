@@ -1,0 +1,80 @@
+.subheader-content-title{
+    width: 97%;
+    position: relative;
+    float: left;
+    padding-left: 3%;
+    font-size: 2em;
+    font-weight: 500;
+    color: #FFF;
+    background-color: var(--primary-color);
+
+    &::before {
+        background-color: var(--primary-color);
+        content: "";
+        display: block;
+        height: 1.3em;
+        margin-left: -3.8%;
+        -webkit-mask-image: radial-gradient(circle at 0 1.92rem,transparent 0,transparent 1.92rem,#000 1.96rem);
+        mask-image: radial-gradient(circle 1.09375rem at 0 1.09375rem,transparent 0,transparent 1.09375rem,#000 1.09375rem);
+        position: relative;
+        top: -0.06125rem;
+        transform: translateX(-1.09375rem);
+        width: 1.9rem;
+        z-index: 10;
+    }
+}
+
+.subheader-content-title::before{
+    background-color: var(--primary-color);
+    content: "";
+    display: block;
+    height: 1.3em;
+    margin-left: -3.8%;
+    -webkit-mask-image: radial-gradient(circle at 0 1.92rem,transparent 0,transparent 1.92rem,#000 1.96rem);
+    /* mask-image: radial-gradient(circle 1.09375rem at 0 1.09375rem,transparent 0,transparent 1.09375rem,#000 1.09375rem); */
+    mask-image:  radial-gradient(circle 1.09375rem at 0 2.14rem,transparent 0,transparent 2.1rem,#000 2.01rem);
+    position: relative;
+    top: -0.06125rem;
+    transform: translateX(-1.09375rem);
+    width: 1.9rem;
+    z-index: 10;
+}
+
+.subheader-content-subtitle{
+    width: 97%;
+    position: relative;
+    float: left;
+    padding-left: 3%;
+    font-size: 0.9em;
+    color: #FFF;
+    margin-bottom: 40px;
+    background-color: var(--primary-color);
+    border-radius: 0 0 100% 100%/0 0 3vw 3vw;
+}
+
+.subheader-content-subtitle::after{
+    content: "";
+    display: block;
+    height: 12.5vw;
+    width: 100%;
+}
+
+
+
+/* #### Mobile Phones Portrait (retrato) #### */
+@media screen and (max-device-width: 640px)  { 
+    
+}
+
+/* #### Mobile Phones Landscape (horizontal) #### */
+@media screen and (max-device-width: 640px) and (orientation: landscape) { }
+
+/* #### Tablets Portrait (retrato) #### */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    
+}
+
+/* #### Tablets Lanscape (horizontal) #### */
+@media screen and (max-device-width: 1023px) and (orientation: landscape) { 
+    
+}

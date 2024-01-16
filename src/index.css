@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+  --primary-color: #425781;
+  /* --secondary-color: #c3a70f; */
+
+  --buttons-color: #0099ff;
+  --buttons-shadow: #0095ff4a;
+
+  --font-family: 'Roboto Slab', serif;
+  --font-size: 0.98em;
+
+  --background-site-image: url(./assets/img/template/background_site.png);
+  --background-site-position: top center;
+  --background-site-size: cover;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+}
+
+html, body, #root{
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  position: relative;
+}
+
+body{
+  /* background-image: var(--background-site-image); */
+  background-position: var(--background-site-position);
+  background-size: var(--background-site-size);
+}
+
+.app-container{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/******************************************************************************************************* 
+* [ CONTENT ] ******************************************************************************************
+*******************************************************************************************************/
+.container-content-backoffice{
+  width: 86%;
+  position: relative;
+  float: left;
+  padding-left: 3%;
+}
+
+.content-backoffice{
+  width: 88%;
+  position: relative;
+  float: left;
+  /* display: flex; */
+
+  transition: width 1s;
+}
+
+.content-backoffice-collected{
+  width: 96%
+}
+
+.container-content-backoffice-pages{
+  width: 95%;
+  position: relative;
+  float: left;
+  margin-left: 3%;
+  margin-right: 2%;
+  top: -15em;
+  z-index: 100;
+}
+
+.content-card{
+  border-radius: 1em;
+  padding: 2%;
+  box-shadow: 1px 3px 9px #CCC;
+}
+
+
+
+
+/* #### Mobile Phones Portrait (retrato) #### */
+@media screen and (max-device-width: 640px)  { 
+    
+}
+
+/* #### Mobile Phones Landscape (horizontal) #### */
+@media screen and (max-device-width: 640px) and (orientation: landscape) {
+
+}
+
+/* #### Tablets Portrait (retrato) #### */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+
+}
+
+/* #### Tablets Lanscape (horizontal) #### */
+@media screen and (max-device-width: 1023px) and (orientation: landscape) { 
+  .content-backoffice{
+    width: 83%;
+  }
+
+  .container-content-backoffice{
+    width: 81%;
+  }
+
+  .container-content-backoffice-pages{
+    top: -8em;
+  }
+
+  .table-container-search input{
+    padding: 15px;
+  }
+}

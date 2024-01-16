@@ -1,0 +1,98 @@
+header{
+    width: 98%;
+    height: 68px;
+    position: relative;
+    padding: 1%;
+    background-color: var(--primary-color);
+    display: flex;
+}
+
+.header-container-logo{
+    width: 11%;
+    position: relative;
+    float: left;
+
+    transition: width 1s;
+}
+
+.header-container-logo-collected{
+    width: 2%;
+}
+
+.header-container-logo img {
+    width: 80%;
+}
+
+.header-container-search{
+    width: 86%;
+    position: relative;
+    float: left;
+    padding-left: 3%;
+}
+
+.header-button-menu{
+    width: 2%;
+    position: relative;
+    float: left;
+    padding: 1em;
+    border: 0;
+}
+
+.header-button-menu svg{
+    width: 100%;
+    color: #FFF;
+}
+
+.header-input-search{
+    width: 15%;
+    padding: 1em;
+    font-size: var(--font-size);
+    border: 0;
+    border-radius: 1em;
+    background-color: transparent;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+}
+
+.header-input-search::placeholder{ color: #ffffff83; }
+
+.header-input-search:focus{
+    width: 40%;
+    background-color: #00000022;
+    border: 0;
+    outline: none;
+    color: #FFF;
+}
+
+
+/* #### Mobile Phones Portrait (retrato) #### */
+@media screen and (max-device-width: 640px)  { 
+    header{
+        width: 94%;
+        height: 50px;
+        padding: 3%;
+    }
+
+    .header-container-logo{
+        width: 48%;
+    }
+
+    .header-input-search{ display: none; }
+}
+
+/* #### Mobile Phones Landscape (horizontal) #### */
+@media screen and (max-device-width: 640px) and (orientation: landscape) {
+
+}
+
+/* #### Tablets Portrait (retrato) #### */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    .header-container-logo{
+        width: 18%;
+    }
+}
+
+/* #### Tablets Lanscape (horizontal) #### */
+@media screen and (max-device-width: 1023px) and (orientation: landscape) { 
+  
+}

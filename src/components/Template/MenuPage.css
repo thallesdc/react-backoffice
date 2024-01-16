@@ -1,0 +1,138 @@
+.menu-container{
+    width: 10%;
+    min-height: 78%;
+    position: relative;
+    float: left;
+    /* display: flex; */
+    padding: 1%;
+    padding-bottom: 60px;
+    border-top-right-radius: 2em;
+    background-color: #FFF;
+    box-shadow: 1px 3px 9px #CCC;
+    /* vertical-align: middle; */
+    flex-wrap: wrap;
+
+    transition: width 1s ease-in-out;
+}
+
+.menu-container-content-profile{
+    width: 100%;
+    position: relative;
+    float: left;
+    margin-top: 16px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #808080;
+    font-size:var(--font-size);
+}
+
+.menu-content-profile-img{
+    width: 100%;
+    position: relative;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.menu-content-profile-img img{
+    width: 37%;
+    border-radius: 50%;
+    border: 4px solid #e3e3e3;
+}
+
+.menu-label-session{
+    width: 100%;
+    float: left;
+    position: relative;
+    font-weight: 600;
+    font-size: 0.7em;
+    color: #a2a2a2;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.menu-content-item{
+    width: 92%;
+    position: relative;
+    float: left;
+    padding: 5%;
+    font-size: 0.85em;
+    font-weight: 400;
+    text-decoration: none;
+    color: #696969;
+    vertical-align: middle;
+    margin-right: 8%;
+    margin-bottom: 10px;
+}
+
+.menu-content-item-selected{
+    background-color: var(--buttons-color);
+    color: #FFF;
+    border-radius: 10px;
+}
+
+.menu-content-item-selected:hover{
+    color: #e8e8e8 !important;
+}
+
+.menu-content-item:hover{
+    color: #373737;
+}
+
+.menu-text-item{
+    float: left;
+}
+
+.menu-item-icon{
+    position: relative;
+    float: left;
+    width: 10%;
+    height: 17px;
+    padding-right: 7%;
+}
+
+.menu-item-icon-arrow{
+    float: right;
+}
+
+.menu-container-btn-logout{
+    width: 10%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #FFF;
+    border-top: 1px solid #ededed;
+    padding-top: 0.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+
+    transition: width 1s;
+}
+
+.menu-container-collected{
+    width: 2%;
+}
+
+
+/* #### Mobile Phones Portrait (retrato) #### */
+@media screen and (max-device-width: 640px)  { 
+    
+}
+
+/* #### Mobile Phones Landscape (horizontal) #### */
+@media screen and (max-device-width: 640px) and (orientation: landscape) { }
+
+/* #### Tablets Portrait (retrato) #### */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    
+}
+
+/* #### Tablets Lanscape (horizontal) #### */
+@media screen and (max-device-width: 1023px) and (orientation: landscape) { 
+    .menu-container{
+        width: 15%;
+    }
+
+    .menu-container-btn-logout{
+        width: 15%;
+    }
+}

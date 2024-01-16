@@ -1,0 +1,197 @@
+.login-container{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container-card{
+    width: 21%;
+    position: relative;
+    display: flex;
+    /* margin-left: 39%;
+    margin-top: 8%; */
+    justify-content: center;
+    align-items: center;
+}
+
+.login-image{
+    width: 100%;
+    height: 80px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.login-image img{
+    max-height: 85%;
+}
+
+.login-container-data-form{
+    width: 86%;
+    position: relative;
+    background: rgb(248,249,250);
+    padding: 7%;
+    box-shadow: 1px 3px 8px #CCC;
+    border-radius: 10px;
+}
+
+.login-title{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 50px;
+}
+
+.login-content-form{
+    width: 100%;
+    position: relative;
+}
+
+.row-form-login{
+    width: 100%;
+    position: relative;
+    float: left;
+    margin-bottom: 40px;
+}
+
+
+
+
+/* #### Mobile Phones Portrait (retrato) #### */
+@media screen and (max-device-width: 640px)  { 
+    .image-data-form{
+        display: none;
+    }
+
+    .title-login{
+        margin-bottom: 50px;
+    }
+
+    .content-form-login{
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .row-form-login{
+        margin-bottom: 30px;
+    }
+
+    .container-data-login{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 15%;
+    }
+
+    .content-form-login{
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) { 
+    .login-container-card{
+        width: 80%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {  }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) { 
+    .login-container-card{
+        width: 65%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) { 
+    .login-container{
+        top: 5%;
+    }
+
+    .login-container-card{
+        width: 45%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) { 
+    .login-container{
+        top: 18%;
+    }
+
+    .login-container-card{
+        width: 25%;
+    }
+}
+
+
+
+
+/* #### Mobile Phones Landscape (horizontal) ####
+@media screen and (max-device-width: 640px) and (orientation: landscape) { }
+
+/* #### Tablets Portrait (retrato) #### */
+/* @media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    .image-data-form{
+        display: none;
+    }
+
+    .title-login{
+        margin-bottom: 50px;
+    }
+
+    .content-form-login{
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .row-form-login{
+        margin-bottom: 30px;
+    }
+
+    .container-data-login{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 15%;
+    }
+
+    .content-form-login{
+        width: 100%;
+        margin-left: 0%;
+    }
+} */
+
+/* #### Tablets Lanscape (horizontal) #### */
+/* @media screen and (max-device-width: 1023px) and (orientation: landscape) { 
+    
+    .container-data-form{
+        width: 90%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .image-data-form{
+        display: flex;
+    }
+
+    .container-data-login{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+
+    .content-form-login{
+        width: 60%;
+        margin-left: 10%;
+    }
+} */
